@@ -12,6 +12,8 @@ header{
 }
 
 nav{
+display: flex;
+flex-direction: column;
 border: 2px solid black;
 border-radius: 0.5rem;
 text-align: center;
