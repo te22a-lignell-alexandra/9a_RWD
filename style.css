@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+header{
+    border: 2px solid black;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: calc(1rem + 3vw);
+}
+
+nav{
+border: 2px solid black;
+border-radius: 0.5rem;
+text-align: center;
+font-size: calc(.5rem + 2vw);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: .5rem;
+    gap: .5vh;
+    padding: .5vh;
+}
+
+main > article{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: .5rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: .5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
